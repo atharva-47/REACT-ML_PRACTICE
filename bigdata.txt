@@ -1,0 +1,23 @@
+Assignment 1
+
+1. hdfs dfs -mkdir /data
+2. hdfs dfs -put /path/to/local/sample.txt /data/
+3. hdfs dfs -ls /data
+4. hdfs dfs -cp /data/sample.txt /data/sample_copy.txt
+5. hdfs dfs -rm /data/sample_copy.txt
+
+Assignment 2
+
+1. hdfs dfs -mkdir /input /output
+2. hdfs dfs -mkdir /input/subdir
+3. hdfs dfs -put /path/to/local/data.txt /input/
+4. hdfs dfs -ls -R /input
+5. hdfs dfs -mv /input/data.txt /input/subdir/
+
+Assignment 3
+
+1. hdfs dfs -touchz /permissions.txt
+2. hdfs dfs -chown hadoopuser /permissions.txt
+3. hdfs dfs -chgrp hadoopgroup /permissions.txt
+4. hdfs dfs -chmod 440 /permissions.txt
+5. hdfs dfs -ls /permissions.txt
